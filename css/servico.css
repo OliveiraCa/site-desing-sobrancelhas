@@ -1,0 +1,134 @@
+.corpo{
+    background-color: rgb(236, 184, 236);
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.mensagem{
+ margin: 0 auto;
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.conteudo{
+    margin: 0 auto;
+    
+}
+.imagem{
+    
+    float: left;
+    margin-left: 50px;
+}
+
+
+.texto{ 
+    max-width: 55ch;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.texto01{
+    display: flex;
+    font-family: tangerine;
+    font-size: 7rem;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.conteudo-2, .conteudo-3, .conteudo-4{
+    margin: 20px auto; 
+    
+}
+.conteudo-4{
+    margin-bottom: 40px;
+}
+
+.texto-1{
+    float: left;
+    padding-left: 20px;
+}
+
+.imagem-2{
+    
+    float: right;
+    
+}
+
+.texto-2{
+  
+    float: right;
+    padding-right: 20px;
+}
+
+.imagem-3{
+  
+    float: left;
+    
+
+}
+.texto-3{
+  
+    float: left;
+   padding-left: 20px;
+}
+
+.imagem-4{
+    
+    float: right;
+  
+}
+.texto-4{
+  
+    float: right;
+    padding-right: 20px;
+ 
+}
+
+@media(max-width:1200px){
+    
+    .imagem, .imagem-2, .imagem-3, .imagem-4{
+    width: 400px;
+    }
+    .texto{
+        width: 400px;
+        font-size: 1rem;
+        margin-top: 10px;
+        
+        
+    }
+}
+
+@media(max-width:600px){
+    .corpo{
+        justify-content: center;
+    }
+    .imagem{
+        margin-left: 0;
+        
+    }
+.texto{
+    max-width: 25ch;
+}
+
+.texto-1, .texto-2, .texto-3, .texto-4{
+    float: none;
+   
+}
+ 
+.imagem, .imagem-2, .imagem-3, .imagem-4{
+    width: 300px;
+    }
+
+    .corpo h1{
+        font-size: 4rem;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+@import "global.css";
+@import "principal.css";
+@import "servico.css";
+@import "rodape.css";
+@import "banner.css";
+
+
+/* paginas  */
+@import "politica.css";
+@import "servicosPage.css";
+@import "contato.css";
+@import "fotos.css";
+
+

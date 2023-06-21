@@ -1,0 +1,128 @@
+
+/* curiosidade */
+
+.curiosidade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 0px;    
+    background: linear-gradient(123deg, rgba(255,0,240,1) 20%, rgba(229,1,233,1) 40%,  rgba(255,105,180,1)83%) ;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.curiosidade div:first-child{
+ color: #fff;
+
+    padding: 20px;
+}
+
+.curiosidade p{
+    max-width: 60ch;
+}
+
+
+
+.curiosidade-image img {
+    flex: 0 1 300px;
+   height: 300px;
+   width: 600px;
+   object-fit: cover;
+    
+}
+
+/* conteudo serviço */
+
+.servic0{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color:rgb(236, 184, 236);
+    
+}
+
+.servic0-item .images{
+    width: 600px;
+}
+
+.servic0-item .conteudo{    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid violet;
+    width: 500px;
+    
+}
+
+
+
+.servic0-item .conteudo h2{
+    background-color: #dd9bdf;
+    text-align: center;
+}
+
+.servic0-item .conteudo ul li{
+    margin-left: 20px;
+    color: #000;
+   
+}
+
+ .servic0-item .conteudo a{
+ 
+  align-self: center;
+  margin: 20px 0;
+ 
+
+} 
+
+
+
+.servic0-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 40px 0;
+    gap:10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:600px){
+    /* curiosidade */
+
+.curiosidade{
+   
+    padding: 20px 0px;    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.curiosidade div:first-child{
+    color: #fff;
+    padding: 20px;
+}
+
+.curiosidade p{
+    max-width: 30ch;
+}
+
+.curiosidade h2{
+    font-size: 4rem;
+    padding-top: 10px;
+}
+
+/* fim curiosidade responsivo */
+
+/* servico conteudo */
+.servic0{
+    display: block;
+
+}
+
+
+}
